@@ -34,6 +34,13 @@
       <type>Main</type>
       <value>true</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>businessTagId</name>
+      <type>Main</type>
+      <value>${BUSINESS_TAG_ID}</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>http://${BASE_URL}/${API_VERSION}/user/login?</restUrl>
@@ -69,6 +76,13 @@
       <id>332a1f73-3c74-41b5-9a4b-9ca8dca42e99</id>
       <masked>false</masked>
       <name>PASSWORD</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.BUSINESS_TAG_ID</defaultValue>
+      <description></description>
+      <id>9f5f1f82-aefb-48b0-9e7d-920c453c4b1f</id>
+      <masked>false</masked>
+      <name>BUSINESS_TAG_ID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

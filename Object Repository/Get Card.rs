@@ -16,6 +16,13 @@
       <type>Main</type>
       <value>${LOGIN_TOKEN}</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>businessTagId</name>
+      <type>Main</type>
+      <value>${BUSINESS_TAG_ID}</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
    <restUrl>http://${BASE_URL}/${API_VERSION}/get/card/${BUSINESS_TAG_ID}/${CARD_ID}?</restUrl>

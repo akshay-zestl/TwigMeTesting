@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Test Server</description>
       <initValue>'twig-me.com'</initValue>
       <name>BASE_URL</name>
    </GlobalVariableEntity>
@@ -15,23 +15,23 @@
       <name>API_VERSION</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
+      <description>UDS</description>
+      <initValue>'DGEQU5DHCPYCQ'</initValue>
       <name>BUSINESS_TAG_ID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
+      <description>Project ID</description>
+      <initValue>'47'</initValue>
       <name>WFID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'sid@zestl.com'</initValue>
       <name>EMAIL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
+      <description>SHA 512 Encrypted Password</description>
+      <initValue>'ABC86E7F6E543E5C864CB715EEA8643A938BC35CD1DFFF13C2D589FBDEFE36DB9DF67CFBE0B5F4A3929D3E48E430570B8B1E88BD6718AE6EF072FD29F2DC5949'</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -25,8 +25,9 @@ for (def index : (0..FORM_SUBS.size())) {
         def formSub = jsonSlurper.parseText(FORM_SUBS[index])
 
         response = WS.sendRequest(findTestObject('Form Submit', [('BASE_URL') : GlobalVariable.BASE_URL, ('API_VERSION') : GlobalVariable.API_VERSION
-            , ('BUSINESS_TAG_ID') : GlobalVariable.BUSINESS_TAG_ID, ('LOGIN_TOKEN') : GlobalVariable.LOGIN_TOKEN, ('FORM_ID') : formSub.FormID
-            , ('FORM_SUBMISSION_ID') : formSub.FormSubmissionID, ('FORM_BODY') : FORM_SUBS[index]]))
+                    , ('BUSINESS_TAG_ID') : GlobalVariable.BUSINESS_TAG_ID, ('LOGIN_TOKEN') : GlobalVariable.LOGIN_TOKEN
+                    , ('FORM_ID') : formSub.FormID, ('FORM_SUBMISSION_ID') : formSub.FormSubmissionID, ('FORM_BODY') : FORM_SUBS[
+                    index]]))
 
         WS.verifyResponseStatusCode(response, 200)
 

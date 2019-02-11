@@ -16,7 +16,7 @@ import groovy.json.JsonSlurper as JsonSlurper
 import static org.assertj.core.api.Assertions.*
 
 response = WS.sendRequest(findTestObject('Login', [('BASE_URL') : GlobalVariable.BASE_URL, ('API_VERSION') : GlobalVariable.API_VERSION
-            , ('EMAIL') : GlobalVariable.EMAIL, ('PASSWORD') : GlobalVariable.PASSWORD]))
+            , ('EMAIL') : GlobalVariable.EMAIL, ('PASSWORD') : GlobalVariable.PASSWORD, ('BUSINESS_TAG_ID') : GlobalVariable.BUSINESS_TAG_ID]))
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -29,4 +29,3 @@ def jsonSlurper = new JsonSlurper()
 def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 
 GlobalVariable.LOGIN_TOKEN = jsonResponse.loginToken
-
