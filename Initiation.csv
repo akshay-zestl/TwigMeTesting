@@ -1,0 +1,29 @@
+formSubmissionID,id,Store Name,Property Type ,Zone,State,City,Store Code,Sq Ft,Initiation Date,Status,wid
+63272,1,Master Test 1,RTM,West,MH,Pune,,,02/19/19,Not Started,52
+52253,2,Bulk Project Test 3,RTM,East,MH,Pune,,,02/19/19,Active,73
+51254,3,Bulk Project Test 2,RTM,East,MH,Pune,,,02/19/19,Active,72
+50255,4,Bulk Project Test 1,RTM,East,MH,Pune,,,02/19/19,Active,71
+50226,5,,RTM,,,,,,,Active,70
+50225,6,New Sub Test 2,RTM,East,MH,Pune,,,02/19/19,Active,52
+49222,7,New Sub Test 2,RTM,East,MH,Pune,,,02/19/19,Active,69
+48219,8,New Sub Test 1,RTM,West,MH,Pune,,,02/19/19,Active,68
+48214,9,,RTM,,,,,,,Active,67
+48213,10,,RTM,,,,,,,Active,66
+48211,11,,RTM,,,,,,,Active,65
+48212,12,New Sub Test 1,RTM,West,MH,Pune,,,02/19/19,Active,65
+48206,13,,RTM,,,,,,,Active,64
+48201,14,,RTM,,,,,,,Active,63
+48196,15,,RTM,,,,,,,Active,62
+48191,16,,RTM,,,,,,,Active,61
+48186,17,,RTM,,,,,,,Active,60
+48185,18,,RTM,,,,,,,Active,59
+48184,19,New Sub Test 1,RTM,West,MH,Pune,,,02/19/19,Active,52
+45124,20,,RTM,,,,,,,Active,58
+45123,21,,RTM,,,,,,,Active,57
+44098,22,This should be edited,RTM,West,MH,Mumbai,13099,2200,2019-02-21,Active,56
+44096,23,test 2 masters,RTM,West,MH,Pune,213123,,2019-02-21,Active,57
+44095,24,Test Master,RTM,West,MH,Aurangabad,998123,2100,2019-02-21,Active,
+43797,25,,RTM,,,,,,,Active,55
+42802,26,Test Team,RTM,West,MH,Pune,10010,14500,02/20/19,Active,54
+40793,27,Roleplay 6,RTM,West,Maharashtra,Mumbai,11009,12000,02/19/19,Active,53
+,,Master Project Creation 1,RTM,West,MH,Pune,,,02/19/19,Not Started,52
